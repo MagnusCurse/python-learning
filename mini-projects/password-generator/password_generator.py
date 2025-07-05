@@ -5,11 +5,11 @@ import string  # For string constants like ascii_letters, digits, punctuation
 
 def generate_password(min_length, numbers=True, special_characters=True):
     """
-    Generates a random password based on the specified criteria.
-    :param min_length: Minimum length of the password
-    :param numbers: Whether to include numbers in the password
-    :param special_characters: Whether to include special characters in the password
-    :return: Generated password as a string
+        Generates a random password based on the specified criteria.
+        :param min_length: Minimum length of the password
+        :param numbers: Whether to include numbers in the password
+        :param special_characters: Whether to include special characters in the password
+        :return: Generated password as a string
     """
     letters = string.ascii_letters  # All uppercase and lowercase letters
     digits = string.digits          # All digit characters (0-9)
